@@ -1,3 +1,3 @@
-# Github과 연동하기
+# Table of contents
 
-간단하게 연동하기
+* [Github과 연동하기](README.md)
