@@ -1,4 +1,3 @@
-# 목차
 - React에서 JSX를 사용하는 목적
 - Syntactic sugar
 - React.createElement
