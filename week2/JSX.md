@@ -1,3 +1,15 @@
+# 목차
+
+- React에서 JSX를 사용하는 목적
+- Syntactic sugar
+- React.createElement
+- React Element
+- React StrictMode
+- VDOM(Virtual DOM)이란?
+    - DOM이란?
+    - DOM과 Virtual DOM의 차이
+- Reconciliation(재조정) 과정은 무엇인가?
+
 ## ✔️ 키워드 정리
 
 ### React에서 JSX를 사용하는 목적
@@ -13,6 +25,8 @@ React에서는 본질적으로 렌더링 로직이 UI로직과 연결된다.
 ### Syntactic sugar
 
 Syntactic sugar는 사람이 이해하기 쉽게 디자인된 프로그래밍 언어 문법이다. 사용하고자하는 프로그래밍 언어를 더욱 더 간결하고 명확하게 표현할 수 있도록 도와주는 역할을 한다.
+
+React에서 JSX는 Syntactic sugar 역할을 한다!
 
 ### React.createElement
 
