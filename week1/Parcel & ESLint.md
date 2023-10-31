@@ -1,13 +1,23 @@
+# 학습 키워드
+
+- Bundler(번들러)
+  - Parcel
+- Lint(린트)
+  - ESLint
+
 ## ✔️ 키워드 정리
+
 ### Parcel
+
 특별한 설정 없이 바로 사용 가능한 빌드 도구. 내부적으로 SWC를 사용해 기존 도구보다 빠르다<br/>
 
 `package.json` 파일에 설정 추가
-```json
+
+```Json
 "source": "./index.html",
 ```
 
-```
+```Json
 // parcel-reporter-static-files-copy 패키지 설치 후 .parcelrc 파일 작성
 // 이렇게 하면 static 폴더의 파일을 정적 파일로 Serving할 수 있다(이미지 등 Assets).
 {
@@ -18,7 +28,7 @@
 
 빌드 및 정적 서버 실행
 
-```
+```Bash
 npx parcel build
 npx servor ./dist
 ```

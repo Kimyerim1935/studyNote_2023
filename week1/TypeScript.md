@@ -1,3 +1,11 @@
+# 목차
+- REPL
+- TypeScript
+    - Interface vs Type
+    - 타입 추론
+    - Union Type vs Intersection Type
+    - Optional Parameter
+
 ## ✔️ 키워드 정리
 
 ### REPL
@@ -15,8 +23,8 @@ REPL(read-eval-print loop)은 단일 사용자의 입력을 취하고 이를 평
 - type과 interface 모두 확장하여 새 유형을 만들 수 있다.
 
 차이점
-- type은 기존 타입의 새 이름을 정의하는 방법이며, interface는 새로운 객체를 처음부터 정의한다. 
-type은 Type Alias를 지정하는 데 사용할 수 있고, interface는 완전히 새로운 유형을 정의하는 데 사용할 수 있다.
+- type은 기존 타입의 새 이름을 정의하는 방법이며, interface는 새로운 객체를 처음부터 정의한다.
+- type은 Type Alias를 지정하는 데 사용할 수 있고, interface는 완전히 새로운 유형을 정의하는 데 사용할 수 있다.
 
 - type은 선언된 타입을 재 선언시 오류가 지만, interface는 기존의 객체에 더하여 확장된다.
 
@@ -53,8 +61,8 @@ type Exercises = "Swimming" | "Walking" | "Yoga";
 
 type MyFavoriteHobbies = MyHobbies & Exercises;  // Swimming
 ```
-&기호를 사용하면 양쪽 모두 할당할 수 있는 값만 남긴다. 
-즉, 겹치는 값이 할당된다. 
+&기호를 사용하면 양쪽 모두 할당할 수 있는 값만 남긴다.
+즉, 겹치는 값이 할당된다.
 반면에 아무것도 겹치지 않는다면 할당할 수 있는 값이 없으므로 `never`가 된다.
 
 #### Optional Parameter
