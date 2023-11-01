@@ -61,7 +61,21 @@ setName을 이용해서 state를 변경하면 해당 컴포넌트는 다시 렌�
 
 ### 1급 객체(first-class object)란?
 
+일급 객체란 변수에 할당할 수 있어야하고, 다른 함수를 인자로 전달 받아야한다.
+또한 다른 함수의 결과로서 리턴될 수 있다.
+
+함수가 일급 객체라면 고차함수를 만들 수 있고, 콜백을 사용할 수 있다.
+
+일급 객체는 프로그래밍 언어론의 개념으로서, 자바스크립트 이외에도 다양한 언어들이 이 일급 객체 개념을 갖고 있다.
+
+
 ### Lifting State Up
+
+리액트에서는 단방향 데이터 흐름을 원칙으로 한다.
+따라서 하위 컴포넌트는 상위 컴포넌트로부터 전달 받은 데이터의 형태만 알 수 있다.
+
+상위 컴포넌트에서 상태를 변경하는 함수를 하위 컴포넌트로 전달하고, 하위 컴포넌트가 전달받은 함수를 실행한다.
+이것을 상태 끌어올리기라고 한다.
 
 ### 참고
 
@@ -69,3 +83,5 @@ https://onlyfor-me-blog.tistory.com/463<br/>
 https://www.lesstif.com/software-engineering/ssot-single-source-of-truth-128122887.html<br/>
 https://chancethecoder.tistory.com/45<br/>
 https://legacy.reactjs.org/docs/hooks-state.html<br/>
+https://inpa.tistory.com/entry/CS-%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB-%EC%9D%BC%EA%B8%89-%EA%B0%9D%EC%B2%B4first-class-object<br/>
+https://velog.io/@devjade/React-State-%EB%81%8C%EC%96%B4%EC%98%AC%EB%A6%AC%EA%B8%B0Lifting-State-Up<br/>
