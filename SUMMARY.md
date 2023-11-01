@@ -9,3 +9,6 @@
     * [Parcel & ESLint](/week1/Parcel%20&%20ESLint.md)
 * [2주차](/week2/README.md)
     * [JSX](/week2/JSX.md)
+* [3주차](/week3/README.md)
+    * [React Component](/week3/React%20Component.md)
+    * [React State](/week3/React%20State.md)
