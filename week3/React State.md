@@ -62,7 +62,8 @@ setName을 이용해서 state를 변경하면 해당 컴포넌트는 다시 렌�
 
 모든 컴포넌트들은 자신의 이벤트 핸들러에서 setState()를 호출할 때까지 React는 리렌더링을 하지 않고 내부적으로 기다리고 있다. 이를 통해 불필요한 렌더링을 방지하면서 성능을 향상시킨다.
 
-props와 state 사이에 일관성을 해칠 수 있으며, 디버깅하기 매우 힘든 이슈를 일으킬 수 있기 때문이고, 현재 작업중인 새로운 기능들을 구현하기 힘들게 할 수 있기 때문이다.
+왜 동기적으로 state를 변경하지 않을까??
+=> props와 state 사이에 일관성을 해칠 수 있으며, 디버깅하기 매우 힘든 이슈를 일으킬 수 있기 때문이고, 현재 작업중인 새로운 기능들을 구현하기 힘들게 할 수 있기 때문이다.
 
 ### 1급 객체(first-class object)란?
 
@@ -84,9 +85,9 @@ props와 state 사이에 일관성을 해칠 수 있으며, 디버깅하기 매�
 
 ### 참고
 
-https://onlyfor-me-blog.tistory.com/463<br/>
-https://www.lesstif.com/software-engineering/ssot-single-source-of-truth-128122887.html<br/>
-https://chancethecoder.tistory.com/45<br/>
-https://legacy.reactjs.org/docs/hooks-state.html<br/>
-https://inpa.tistory.com/entry/CS-%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB-%EC%9D%BC%EA%B8%89-%EA%B0%9D%EC%B2%B4first-class-object<br/>
-https://velog.io/@devjade/React-State-%EB%81%8C%EC%96%B4%EC%98%AC%EB%A6%AC%EA%B8%B0Lifting-State-Up<br/>
+<https://onlyfor-me-blog.tistory.com/463><br/>
+<https://www.lesstif.com/software-engineering/ssot-single-source-of-truth-128122887.html><br/>
+<https://chancethecoder.tistory.com/45><br/>
+<https://legacy.reactjs.org/docs/hooks-state.html><br/>
+<https://inpa.tistory.com/entry/CS-%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB-%EC%9D%BC%EA%B8%89-%EA%B0%9D%EC%B2%B4first-class-object><br/>
+<https://velog.io/@devjade/React-State-%EB%81%8C%EC%96%B4%EC%98%AC%EB%A6%AC%EA%B8%B0Lifting-State-Up><br/>

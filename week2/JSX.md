@@ -101,6 +101,7 @@ React는 두 가지의 가정을 기반하여 O(n) 복잡도의 휴리스틱 알
 엘리먼트의 타입이 같은 경우에는 두 엘리먼트의 속성을 확인하여 동일한 내역은 유지 하고 변경된 부분들의 속성들만 갱신한다.
 
 ### 참고
-- https://seokzin.tistory.com/entry/React-%EC%97%98%EB%A6%AC%EB%A8%BC%ED%8A%B8%EC%99%80-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-Element-Component-JSX<br/>
-- https://gimdam.tistory.com/entry/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%8B%9C%EC%9E%91-03-Hello-World<br/>
+
+- <https://seokzin.tistory.com/entry/React-%EC%97%98%EB%A6%AC%EB%A8%BC%ED%8A%B8%EC%99%80-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-Element-Component-JSX><br/>
+- <https://gimdam.tistory.com/entry/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%8B%9C%EC%9E%91-03-Hello-World><br/>
 - https://programming119.tistory.com/240
