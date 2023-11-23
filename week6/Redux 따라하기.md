@@ -170,9 +170,11 @@ export default function useCounterStore() {
     store.addListener(forceUpdate);
 
     return () => {
-      store.forceUpdates.delete(forceUpdate);
+      store.removeListener(forceUpdate);
     }
   }, [store, forceUpdate])
+
+  return store;
 }
 
 // useStore
@@ -190,7 +192,7 @@ export default function useStore() {
     store.addListener(forceUpdate);
 
     return () => {
-      store.forceUpdates.delete(forceUpdate);
+      store.removeListener(forceUpdate);
     }
   }, [store, forceUpdate])
 }
@@ -436,7 +438,6 @@ export default class BaseStore<State>{
 
 
 // NameCard.tsx
-
 import {useEffect} from 'react';
 import useSelector from '../hooks/useSelector';
 

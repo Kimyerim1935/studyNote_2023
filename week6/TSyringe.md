@@ -112,7 +112,7 @@ export default function useCounterStore() {
     store.addListener(forceUpdate);
 
     return () => {
-      store.forceUpdates.delete(forceUpdate);
+     store.removeListener(forceUpdate);
     }
   }, [store, forceUpdate])
 }
