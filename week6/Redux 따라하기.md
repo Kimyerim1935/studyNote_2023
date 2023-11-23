@@ -12,6 +12,8 @@
 리덕스는 여러 컴포넌트가 공유하는 상태를 관리하기 위한 라이브러리로 메타가 설계한 flux 규격에 맞추어져 있다.
 리액트와 사용하기 위해서는 React Tool Kit을 함께 설치해야 한다.
 
+대략적인 사용 예시는 이렇다.
+
 ```Javascript
 const dispatch = useDispatch();
 const count = useSelector((state) => state.count);
