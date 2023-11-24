@@ -220,6 +220,7 @@ export default function CountControl(){
 ### useSyncExternalStore
 
 `useSyncExternalStore`은 외부 스토어를 구독할 수 있는 [React 내장 Hooks](https://react-ko.dev/reference/react/useSyncExternalStore)이다.
+즉, 리액트를 일부만 도입하고 있는 프로젝트에서 유용하게 사용된다.
 
 ```Javascript
 import { useSyncExternalStore } from 'react';
@@ -237,7 +238,7 @@ function TodosApp() {
 `getSnapshot`는 저장소에서 데이터의 스냅샷을 읽어야 한다.
 
 `getServerSnapshot`은 옵셔널한 값이다. 서버 렌더링 및 클라이언트에서 서버 렌더링 컨텐츠를 하이드레이션하는 동안에만 사용된다. 서버 스냅샷은 클라이언트와 서버 간 동일해야하고 직렬화되어 서버에서 클라이언트로 전달된다.
-이 인수를 생략하면 서버에서 구성 요소를 렌더링할 때 오류가 ㅅ발생된다.
+이 인수를 생략하면 서버에서 구성 요소를 렌더링할 때 오류가 발생된다.
 
 `useSyncExternalStore` Hook을 사용한 예제이다.
 
